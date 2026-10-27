@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Wordle Every Day",
+  "version": "1.0.0",
+  "description": "Her gün yeni bir Türkçe Wordle bulmacası.",
+  "permissions": ["sidePanel", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Wordle'ı Aç"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
